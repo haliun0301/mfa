@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html class="font-serif" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="dist/style.css" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <title>АЮУЛГҮЙ БАЙДЛЫН НЭВТРЭХ ҮНЭМЛЭХ ХҮСЭГЧИЙН АНКЕТ</title>
+</head>
+<body class="bg-gray-200 text-12 text-xs font-mfa-font">
+    <!-- Top bar -->
+    <div class="h-12 bg-mfa-blue text-mfa-yellow  ">
+        <div class="flex flex-row justify-between">
+            <ul class="flex flex-row text-base">
+                <li class="pl-10 font-bold py-3">
+                    <a href="">MN</a>
+                        
+                </li>
+                <li class="px-3 py-2 text-lg font-thin">|</li>
+                <li class=" font-bold py-3 pr-5">
+                        <a href="" class="">EN</a>
+                </li>
+                <li class=" py-2 text-lg font-thin">|</li>
+                <li class="pl-6  font-bold py-3">
+                    <a href="">A -</a>    
+                </li>
+                <li class="px-3 py-2 text-lg font-thin">|</li>
+                    <li class=" font-bold py-3 ">
+                    <a href="" class="">A +</a>
+                </li>
+                <li class="px-3 py-2 text-lg font-thin">|</li>
+            </ul>
+            <div class="flex items-end py-3 font-bold pr-5 text-base">
+                <a href="" class="pr-7">
+                    <i class="fas fa-chart-line font-thin pr-2"></i>
+                    Шилэн данс
+                </a>
+                <a href="" class="pr-7">
+                    <i class="far fa-question-circle font-thin pr-2"></i>
+                    Түгээмэл асуулт хариулт
+                </a>
+                <a href="margad1.html" class="pr-7">
+                    <i class="fas fa-phone-alt font-thin pr-2"></i>
+                    Холбоо барих
+                </a>
+                <a href="" class="pr-7">
+                    <i class="fas fa-search font-thin pr-2"></i>
+                    Хайх
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Menu -->
+    <div class="">
+        <div class="flex flex-row justify-between items-center bg-white h-24 border-b-4 border-mfa-yellow z-10">
+            <img src="img/logo.png" alt="" class="my-2 mx-10">
+            <ul class="flex flex-row uppercase"> 
+                <li>
+                    <div class="pr-4 dropdown inline-block relative"> 
+                        <a href="" class="transition-colors duration-500 hover:text-mfa-yellow inline-flex font-bold text-sm">Яамны тухай</a> 
+                        <div class="dropdown-menu absolute hidden bg-mfa-blue text-white font-sub w-screen z-40">
+                            <ul class="flex flex-row items-between my-10 mx-8">
+                                <li class="mr-16">
+                                    <a class="block whitespace-no-wrap pb-2 border-b-2 border-mfa-yellow  font-bold text-sm" href="#">Удирдлага</a>
+                                    <ul>
+                                        <li class="mt-6 text-0.1xs font-bold hover:text-mfa-yellow">Танилцуулга</li>
+                                        <li class="mt-4 text-0.1xs font-bold hover:text-mfa-yellow">Гадаад харилцааны сайд</li>
+                                        <li class="mt-4 text-0.1xs font-bold hover:text-mfa-yellow">Гадаад харилццаны дэд сайд</li>
+                                    </ul>
+                                </li>
+                                <li class="mr-16">
+                                    <a class="block whitespace-no-wrap pb-2 border-b-2 border-mfa-yellow  font-bold text-sm" href="#">Захиргаа</a>
+                                    <ul>
+                                        <li class="mt-6 text-0.1xs font-bold hover:text-mfa-yellow">Хүний нөөц</li>
+                                        <li class="mt-4 text-0.1xs font-bold hover:text-mfa-yellow">Ёс зүйн зөвлөл</li>
+                                    </ul>
+                                </li>
+                                <li class="mr-16">
+                                    <a class="block whitespace-no-wrap pb-2 border-b-2 border-mfa-yellow  font-bold text-sm" href="#">Бүтэц</a>
+                                    <ul>
+                                        <li class="mt-6 text-0.1xs font-bold hover:text-mfa-yellow">Байгууллагын бүтэц,<br>зохион байгуулалт</li>
+                                        <button class="px-5 py-2 mt-6 text-white bg-mfa-yellow text-xs uppercase font-bold">Дэлгэрэнгүй</button>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </li>
+                <li>
+                    <div class="pr-4 dropdown inline-block relative"> 
+                        <a href="" class="transition-colors duration-500 hover:text-mfa-yellow inline-flex font-bold text-sm">Гадаад бодлого</a> 
+                        <div class="dropdown-menu absolute hidden bg-mfa-blue text-white font-sub w-screen ">
+                            <ul class="flex flex-row items-between my-10 mx-8">
+                                <li class="mr-28 ">
+                                    <a class="block whitespace-no-wrap pb-2 border-b-2 border-mfa-yellow  font-bold text-sm" href="#">Удирдлага</a>
+                                    <ul>
+                                        <li class="mt-6 text-0.1xs font-bold hover:text-mfa-yellow">Танилцуулга</li>
+                                        <li class="mt-4 text-0.1xs font-bold hover:text-mfa-yellow">Гадаад харилцааны сайд</li>
+                                        <li class="mt-4 text-0.1xs font-bold hover:text-mfa-yellow">Гадаад харилццаны дэд сайд</li>
+                                    </ul>
+                                </li>
+                                <li class="mr-28">
+                                    <a class=" block whitespace-no-wrap pb-2 border-b-2 border-mfa-yellow  font-bold text-sm" href="#">Захиргаа</a>
+                                    <ul>
+                                        <li class="mt-6 text-0.1xs font-bold hover:text-mfa-yellow">Хүний нөөц</li>
+                                        <li class="mt-4 text-0.1xs font-bold hover:text-mfa-yellow">Ёс зүйн зөвлөл</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </li>
+                <li> 
+                    <div class="pr-4 dropdown inline-block relative"> 
+                        <a href="" class="transition-colors duration-500 hover:text-mfa-yellow inline-flex font-bold text-sm">Мэдээ</a> 
+                        <div class="dropdown-menu absolute hidden bg-mfa-blue text-white font-sub w-64">
+                            <ul class="flex flex-row items-between my-5 mx-8">
+                                <li class="">
+                                    <ul>
+                                        <li class="mt-4 text-0.1xs font-bold hover:text-mfa-yellow">Танилцуулга</li>
+                                        <li class="mt-4 text-0.1xs font-bold hover:text-mfa-yellow">Танилцуулга</li>
+                                        <li class="mt-4 text-0.1xs font-bold hover:text-mfa-yellow">Гадаад харилцааны сайд</li>
+                                        <li class="mt-4 mb-2 text-0.1xs font-bold hover:text-mfa-yellow">Гадаад харилццаны дэд сайд</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> 
+                </li>
+                <li class="pr-4"> 
+                    <a href="" class="text-sm font-bold hover:text-mfa-yellow">Консул</a> 
+                </li>
+                <li class="pr-10"> 
+                    <a href="" class="text-sm font-bold hover:text-mfa-yellow">Монгол улсын тухай</a> 
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div><img class="fixed float-left pt-64 pl-4 z-30" src="img/mgl-bchg.png"></div>
+    <b>
+    <div class="pt-10"></div>
+    <div class="ml-12">
+    <div class="text-xs text-mfa-blue text-bold mb-2"><b>1. ҮНЭМЛЭХ ХҮСЭГЧИЙН ХЭСЭГ<strong class="text-xs text-gray-500">/ҮНЭМЛЭХ ХҮСЭГЧ НЬ ЭНЭХҮҮ АНКЕТЫГ ЗӨВХӨН ӨӨРӨӨ БӨГЛӨСӨН БАЙНА/</b></strong></div>
+    <div class="w-8/12 h-10"><input type="text" class="h-full w-full pl-5 pr-5" placeholder="Регистерийн №"></div>
+    <div class="border-r-2 border-yellow-500 float-right mr-16">
+        <div
+          class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded  inset-y-0 right-0"
+        >
+          <div class="rounded-t mb-0 px-4 py-3 bg-transparent h-full">
+            <div class="flex flex-wrap items-center h-full">
+              <div class="relative w-full max-w-full flex-grow flex-1 h-full">
+                <h2 class="text-gray-800 text-2xl font-semibold m-5 h-full">
+                    ТУСЛАХ ЦЭС
+                </h2>
+                <hr style="width: 300px; color:yellow;" >
+                
+              </div>
+            </div>
+          </div>
+          <div class="p-4 flex-auto">
+            <!-- Chart -->
+            <div class="relative" style="height:350px">
+                <div class="absolute">
+                <div pl-2><a class="text-xs text-mfa-blue hover:text-yellow-500 " href="#">АЮУЛГҮЙ БАЙДЛЫН НЭВТРЭХ ҮНЭМЛЭХ ХҮСЭГЧИЙН АНКЕТ</a></div>
+                <hr class="mt-4 mb-4">
+                <div pl-2><a class="text-xs text-mfa-blue hover:text-yellow-500 " href="#">МОНГОЛ УЛСЫН ГАДААД ХАРИЛЦААНЫ ЯАМ ҮНЭМЛЭХ БУЦААХ ТУХАЙ МЭДҮҮЛЭГ</a></div>
+                <hr class="mt-4 mb-4">
+                <div pl-2><a class="text-xs text-mfa-blue hover:text-yellow-500 " href="#">ТЭЭВРИЙН ХЭРЭГСЛИЙН “ДК” УЛСЫН БҮРТГЭЛИЙН ДУГААР ХАСАХ ЗӨВШӨӨРӨЛ</a></div>
+                <hr class="mt-4 mb-4">
+                <div pl-2><a class="text-xs text-mfa-blue hover:text-yellow-500 " href="#">ТЭЭВРИЙН ХЭРЭГСЛИЙН “ДК” УЛСЫН БҮРТГЭЛИЙН ДУГААР ОЛГОХ ЗӨВШӨӨРӨЛ</a></div>
+                <hr class="mt-4 mb-4">
+                <div pl-2><a class="text-xs text-mfa-blue hover:text-yellow-500 " href="#">ФОРМ “Б”</a></div>
+            </div>
+              <canvas id="bar-chart"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    <div class="text-xs text-indigo-900 text-bold mb-2 pt-6">2. ХУГАЦАА</div>
+    <div class="bg-opacity-0 inset-y-0 right-0 h-full"></div>
+    <form>
+        <input type="radio" id="male"  name="gender" value="male">
+        <label for="male">Байнгын /1жил/</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Түр /сар/</label>
+    </form>
+    <div class="text-xs text-indigo-900 text-bold mb-2 mt-6 ">3. МЭДЭЭЛЭЛ</div>
+    <div class="grid grid-rows-4 grid-flow-col gap-4">
+        <div class="w-555 h-10"><input type="text" class="h-full w-full pl-5 pr-5" placeholder="Таны овог"></div>
+        <div class="w-555 h-10"><input type="text" class="h-full w-full pl-5 pr-5" placeholder="Регистерийн №"></div>
+        <div class="w-555 h-10"><input type="text" class="h-full w-full pl-5 pr-5" placeholder="Байгууллагын нэр"></div>
+        <div class=""><input type="text" class="h-full w-full pl-5 pr-5" placeholder="Алба салбар"></div>
+        <div class="w-11/12 h-10"><input type="text" class="h-full w-full pl-5 pr-5" placeholder="Таны нэр"></div>
+        <div class="w-11/12 h-10"><input type="text" class="h-full w-full pl-5 pr-5" placeholder="Үнэмлэхний №"></div>
+        <div class="w-11/12 h-10"><input type="text" class="h-full w-full pl-5 pr-5" placeholder="Албан тушаал болон хавсран гүйцэтгэх ажил"></div>
+    </div>
+    <div class="text-xs text-indigo-900 text-bold mb-2 mt-6 ">4. ХАЯГ</div>
+    <div class="grid grid-rows-3 grid-flow-col gap-4">
+        <div class="w-11.5/12 h-10"><input type="text" class="h-full w-full pl-5 pr-5" placeholder="Гэрийн хаяг"></div>
+        <div class="w-full h-10"><input type="text" class="h-full w-full pl-5 pr-5" placeholder="Дүүрэг / сум"></div>
+        <div class="w-full h-10"><input type="text" class="h-full w-full pl-5 pr-5" placeholder="Тоот"></div>
+        <div class="w-11/12"><input type="text" class="h-full w-full pl-5 pr-5" placeholder="Хот / аймаг"></div>
+        <div class="w-11/12"><input type="text" class="h-full w-full pl-5 pr-5" placeholder="Хороо / баг"></div>
+    </div>
+    <div class="text-xs text-indigo-900 text-bold mb-2 mt-6 ">5. ХОЛБОО БАРИХ</div>
+    <div class="h-32 w-3/12 bg-opacity-0 float-right pr-64 "></div>
+    <div class="grid grid-rows-2 grid-flow-col gap-4">
+        <div class="w-full h-10"><input type="text" class="h-full w-full pl-5 pr-5" placeholder="Утас"></div>
+        <div class="w-full h-10"><input type="text" class="h-full w-full pl-5 pr-5" placeholder="Гар утас"></div>
+        <div class="w-11/12 h-10"><input type="text" class="h-full w-full pl-5 pr-5" placeholder="Гэрийн утас"></div>
+        <div class="w-11/12"><input type="text" class="h-full w-full pl-5 pr-5" placeholder="Мэйл хаяг"></div>
+    </div>
+    <div class="text-xs text-indigo-900 text-bold mb-2 mt-6 ">6. СҮҮЛИЙН 5 ЖИЛИЙН ХӨДӨЛМӨР ЭРХЛЭЛТИЙН БАЙДАЛ</div>
+    <div class="h-32 w-3/12 bg-opacity-0 float-right pr-64 "></div>
+    <div class="float-right h-96 w-96 bg-opacity-0 mr-5"></div>
+    <div class="grid grid-rows-2 grid-flow-col gap-4">
+        <div class="w-full h-10"><input type="text" class="h-full w-full pl-5 pr-5" placeholder="Байгууллага"></div>
+        <div class="w-full h-10"><input type="text" class="h-full w-full pl-5 pr-5" placeholder="Ажилласан хугацааг тодорхой бичих"></div>
+        <div class="w-11/12 h-10"><input type="text" class="h-full w-full pl-5 pr-5" placeholder="Албан тушаал"></div>
+    </div>
+    <button class="m-4 text-gray-500">Нэмэлт тайлбар нэмэх</button>
+    <div class="text-xs text-indigo-900 text-bold mb-2 mt-6 ">7. ҮНЭМЛЭХЭЭ ГЭЭЖ ҮРЭГДҮҮЛЖ БАЙСАН ЭСЭХ</div>
+    <form>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Тийм</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Үгүй</label>
+    </form>
+    <div class="text-xs text-indigo-900 text-bold mb-2 mt-6 ">8. ТЭЭВРИЙН ХЭРЭГСЭЛ /Т.Х/-ТЭЙ НЭВТРЭХ ЭСЭХ?</div> 
+    <div class="h-32 w-3/12 bg-opacity-0 float-right pr-64 "></div>
+    <form>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Тийм</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Үгүй</label>
+    </form>
+    <div class="grid grid-rows-3 grid-flow-col gap-4 mt-3">
+        <div class="w-11.5/12 h-10"><input type="text" class="h-full w-full pl-5 pr-5" placeholder="Т/х-ийн өмчийн харъяалал"></div>
+        <div class="w-full h-10"><input type="text" class="h-full w-full pl-5 pr-5" placeholder="Т/х-ийн марк зориулалт"></div>
+        <div class="w-full h-10"><input type="text" class="h-full w-full pl-5 pr-5" placeholder="Ээлжийн жолооч"></div>
+        <div class="w-11/12"><input type="text" class="h-full w-full pl-5 pr-5" placeholder="Т/х-ийн дугаар"></div>
+        <div class="w-11/12"><input type="text" class="h-full w-full pl-5 pr-5" placeholder="Т/х-ийн нэвтрэх шаардлага"></div>
+    </div>
+        <div class="text-xs text-indigo-900 text-bold mb-2 mt-6 ">9. АЭРОДРОМЫН ТАЛБАЙ, АГААРЫН ХӨЛГИЙН ҮЙЛЧИЛГЭЭНИЙ БҮСЭД АЖИЛЛАХ ЖОЛООЧ, ОПЕРАТОРЧИН НАРЫН СУРГАЛТАНД СУУСАН ЭСЭХ?</div> 
+        <form>
+            <input class="border border-yellow-300" type="radio" id="male" name="gender" value="male">
+            <label for="male">Тийм</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Үгүй</label>
+        </form>
+        <div class="text-xs text-indigo-900 text-bold mb-2 mt-6 ">10. ХОРИОТОЙ БОЛОН ХАМГААЛАГДСАН БҮСЭД БАГАЖ, ТОНОГ ТӨХӨӨРӨМЖТЭЙ НЭВТРЭХ ЭСЭХ?
+        </div>
+        <div class="h-32 w-3/12 bg-opacity-0 float-right pr-64 "></div>
+       
+        <form>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Тийм</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Үгүй</label>
+        </form>
+        <div class="grid grid-rows-1 grid-flow-col gap-4 mt-3">
+            <div class="w-full h-10"><input type="text" class="h-full w-full pl-5 pr-5" placeholder="Багаж тоног төхөөрөмжийн нэр"></div>
+            <div class="w-full h-10"><input type="text" class="h-full w-full pl-5 pr-5" placeholder="Тоо ширхэг"></div>
+        </div>
+        <div class="text-xs text-indigo-900 text-bold mb-2 mt-6 ">11. ДАРААХ БАРИМТ БИЧГИЙГ УНШИЖ ТАНИЛЦСАН ЭСЭХ?</div>
+        <div class="grid grid-flow-col grid-cols-3 grid-rows-1 gap-4">
+            <div class="pb-1 text-gray-500">a)Чингис хаан ОУБ-ын аюулгүй байдлын хөтөлбөр</div>
+            <div class="pb-1 text-gray-500">b)Перрон удирдлага зохицуулалтын журам</div>
+        </div>
+        <div class="grid grid-flow-col grid-cols-3 grid-rows-1 gap-4">
+        <div><form>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Тийм</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Үгүй</label>
+        </form></div>
+        <div><form>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Тийм</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Үгүй</label>
+        </form></div>
+    </div>
+    <div class="text-xs text-indigo-900 text-bold mt-6 mb-2">12. ЗААВАРЧИЛГАА</div>
+    <div class="h-32 w-3/12 bg-opacity-0 float-right pr-64 "></div>
+    <div class="text-xs text-gray-500">Та үнэмлэхэнд заагдсан бүсэд нэвтрэхдээ дараах зүйлсийг заавал сахин биелүүлэх үүрэгтэй. Үүнд:</div>
+    <form class="pl-5">
+        <div class="text-xs text-gray-500"><input class="text-xs mt-3" type="checkbox" id="male" name="gender" value="male">
+        <label for="male">a) Нэвтрэх үнэмлэхний ард байрлах санамжийн заалтуудыг байнга сахин биелүүлэх</label></div>
+        <div class="text-xs text-gray-500"><input class="text-xs mt-3" type="checkbox" id="female" name="gender" value="female">
+        <label for="female">b) Нэвтрэх үнэмлэхээ гээгдүүлсэн тохиолдолд АБХА-нд яаралтай мэдэгдэх;</label></div>
+        
+        <div class="text-xs text-gray-500"><input type="checkbox" class="text-xs mt-3" id="male" name="gender" value="male">
+        <label for="male">c) Зөвхөн нэвтрэх үнэмлэхэнд заагдсан бүсээр нэвтрэх эрхтэй ба бүсэд байхдаа аюулгүй байдлыг чандлан сахиж, аюулгүй байдлын ажилтны тавьсан шаардлагыг биелүүлэх;
+        </label></div>
+        <div class="text-xs text-gray-500"><input type="checkbox" class="text-xs mt-3" id="male" name="gender" value="male">
+        <label for="male">d) Аюулгүй ажиллагааны журмыг чанд сахин мөрдөх;</label></div>
+        <div class="text-xs text-gray-500"><input class="text-xs mt-3" type="checkbox" id="male" name="gender" value="male">
+        <label for="male" class="text-xs mt-3">e) Нэвтрэх үнэмлэхний хугацаа дууссан эсвэл албан тушаал солигдсон, ажлаас чөлөөлөгдсөн тохиолдолд таны үнэмлэх бүсэд нэвтрэх эрхгүй болох тул та нэвтрэх үнэмлэхээ АБХА-нд эргүүлэн өгөх;</label></div>
+    </form>
+    <div class="text-xs text-indigo-900 text-bold mb-2 mt-7 ">13. БАТАЛГАА</div>
+    <div class="text-xs text-gray-500 text-bold mb-2 mt-7 ">1. Би дээрх маягтыг үнэн зөв бөглөсөн ба
+    </div>
+    <form class="pl-5">
+        <div class="text-xs text-gray-500"><input class="text-xs mt-3" type="checkbox" id="male" name="gender" value="male">
+        <label for="male">a) өөрийн буруутай үйлдлээс болж нисэхийн үйл ажиллагаанд болон бусдад хохирол учруулсан тохиолдолд</label></div>
+        <div class="text-xs mt-3 text-gray-500"><input type="checkbox" id="female" name="gender" value="female">
+        <label for="female">b) аюулгүй байдлын нэвтрэх үнэмлэхийг ашиглан хууль бус үйлдэл хийхээр завдсан тохиолдолд
+        </label></div>
+        <div class="text-xs mt-3 text-gray-500"><input type="checkbox" id="male" name="gender" value="male">
+        <label for="male">c) бусдад хууль бус үйлдэл хийх боломж олгосон тохиолдолд хууль хяналтын байгууллагын өмнө хариуцлага хүлээнэ
+        </label></div></form>
+        <div class="text-xs text-gray-500 text-bold mb-2 mt-7 ">2. Би бүсэд байх хугацаандаа аюулгүй байдлын болон аюулгүй ажиллагааны журмыг сахин ...................... болно.
+        </div>
+        <form class="pl-5">
+            <div class="text-xs text-gray-500"><input class="text-xs mt-3" type="radio" id="male" name="gender" value="male">
+            <label for="male">Мөрдөх</label></div>
+            <div class="text-xs mt-3 text-gray-500"><input type="radio" id="female" name="gender" value="female ">
+            <label for="female">Үл мөрдөх</label></div></form>
+            <div class="text-xs text-gray-500 text-bold mb-2 mt-7">3. Нисэх буудлын аюулгүй байдлын хөтөлбөрийн 8.16 дахь заалтуудтай .................................... болно.
+
+            </div>
+            <form class="pl-5">
+                <div class="text-xs text-gray-500"><input class="text-xs" type="radio" id="male" name="gender" value="male">
+                <label for="male">Танилцсан</label></div>
+                <div class="text-xs mt-3 text-gray-500"><input type="radio" id="female" name="gender" value="female">
+                <label for="female">Үл танилцсан</label></div></form>
+            <div class="text-xs text-gray-500 text-bold mb-2 mt-7 ">Зөрчил гаргасан тохиолдолд хүлээлгэх арга хэмжээг хүлээн ................................. байна.
+
+            </div>
+            <form class="pl-5">
+                <div class="text-xs text-gray-500"><input class="text-xs" type="radio" id="male" name="gender" value="male">
+                <label for="male">Зөвшөөрөх</label></div>
+                <div class="text-xs mt-3 text-gray-500"><input type="radio" id="female" name="gender" value="female">
+                <label for="female">Үл зөвшөөрөх</label></div></form>
+    <div class="text-xs text-indigo-900 text-bold mb-2 mt-7 ">14. ХҮСЭЛТ ГАРГАГЧИЙН</div>
+    <div class="grid grid-rows-1 grid-cols-5 gap-4 mt-3">
+    <div class=""><input  type="file" placeholder="Багаж тоног төхөөрөмжийн нэр"></div>
+    <div class="w-56 h-10"><input class="w-full h-full pl-3 pr-3 "  type="number" placeholder="Он" ></div>
+    <div class="w-24 h-10"><input class="w-full h-full pl-3 pr-3 "  type="number" placeholder="Сар" ></div>
+    <div class="w-24 h-10"><input class="w-full h-full pl-3 pr-3 "  type="number" placeholder="Өдөр" ></div>
+    
+    </div>
+    <div><img class="mt-8" src="img/2614039698.png">
+        <div><input class="w-1/3 h-10 " type="text"></div>
+    </div>
+    <button class="bg-yellow-500 hover:bg-gray-900 text-white font-bold  py-2 px-4 border border-mfa-yellow mt-8 mb-10 ">
+        Илгээх
+    </button> 
+    
+    </div>   
+    
+</b>
+<!-- footer -->
+    
+<div class="bg-mfa-blue text-white py-20 px-10 flex flex-row justify-between border-b border-gray-300 font-bold bg-no-repeat  bg-cover" style="background-image: url(img/foot.png)">
+    <div class="flex flex-col mb-12">
+        <a class="uppercase pb-3 mb-5 border-b border-white text-sm">Бидний тухай</a>
+        <a href="" class="mb-3 hover:text-mfa-yellow text-xs">Гадаад харилцааны яам</a>
+        <a href="" class="mb-3 hover:text-mfa-yellow text-xs">Монгол улсын гадаад бодлого</a>
+        <a href="" class="mb-3 hover:text-mfa-yellow text-xs">Мэдээ мэдээлэл</a>
+        <a href="" class="mb-3 hover:text-mfa-yellow text-xs">Консул визний мэдээ</a>
+        <a href="" class="mb-3 hover:text-mfa-yellow text-xs">Монгол улсын тухай</a>
+    </div>
+    <div class="flex flex-col">
+        <a class="text-sm uppercase pb-3 mb-5 border-b border-white">Бидний тухай</a>
+        <a href="" class="mb-3 hover:text-mfa-yellow text-xs">Гадаад харилцааны яам</a>
+        <a href="" class="mb-3 hover:text-mfa-yellow text-xs">Монгол улсын гадаад бодлого</a>
+        <a href="" class="mb-3 hover:text-mfa-yellow text-xs">Мэдээ мэдээлэл</a>
+        <a href="" class="mb-3 hover:text-mfa-yellow text-xs">Консул визний мэдээ</a>
+        <a href="" class="mb-3 hover:text-mfa-yellow text-xs">Монгол улсын тухай</a>
+    </div>
+    <div class="flex flex-col">
+        <a class="text-sm uppercase pb-3 mb-5 border-b border-white">Бидний тухай</a>
+        <a href="" class="mb-3 hover:text-mfa-yellow text-xs">Гадаад харилцааны яам</a>
+        <a href="" class="mb-3 hover:text-mfa-yellow text-xs">Монгол улсын гадаад бодлого</a>
+        <a href="" class="mb-3 hover:text-mfa-yellow text-xs">Мэдээ мэдээлэл</a>
+        <a href="" class="mb-3 hover:text-mfa-yellow text-xs">Консул визний мэдээ</a>
+        <a href="" class="mb-3 hover:text-mfa-yellow text-xs">Монгол улсын тухай</a>
+    </div>
+    <div class="flex flex-col">
+        <a class="text-sm uppercase pb-3 mb-5 border-b border-white">Бидний тухай</a>
+        <div class="flex flex-row">
+            <div class="flex flex-col mr-20">
+                <a href="" class="mb-3 hover:text-mfa-yellow text-xs">Гадаад харилцааны яам</a>
+                <a href="" class="mb-3 hover:text-mfa-yellow text-xs">Монгол улсын гадаад бодлого</a>
+                <a href="" class="mb-3 hover:text-mfa-yellow text-xs">Мэдээ мэдээлэл</a>
+                <a href="" class="mb-3 hover:text-mfa-yellow text-xs">Консул визний мэдээ</a>
+                <a href="" class="mb-3 hover:text-mfa-yellow text-xs">Монгол улсын тухай</a>
+            </div>
+            <div class="flex flex-col">
+                <a href="" class="mb-3 hover:text-mfa-yellow text-xs">Гадаад харилцааны яам</a>
+                <a href="" class="mb-3 hover:text-mfa-yellow text-xs">Монгол улсын гадаад бодлого</a>
+                <a href="" class="mb-3 hover:text-mfa-yellow text-xs">Мэдээ мэдээлэл</a>
+                <a href="" class="mb-3 hover:text-mfa-yellow text-xs">Консул визний мэдээ</a>
+                <a href="" class="mb-3 hover:text-mfa-yellow text-xs">Монгол улсын тухай</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bg-mfa-blue flex flex-row justify-between px-10 py-4"> 
+<div class="">
+    <a href="" class="text-white text-sm font-bold">Хүний эрхийн хуулиар хамгаалагдсан 2021 гадаад <br> харилцааны яам</a>
+</div>
+<div class="flex flex-row relative">
+    <div class="mx-5">
+        <i class="fab fa-facebook-square text-blue-600  text-3xl mx-1 absolute z-10"></i>
+    </div>
+    <div  class="mx-5">
+        <i class="fab fa-twitter-square text-blue-400 text-3xl mx-1 absolute z-10"></i>
+    </div>
+    <div class="mx-5">
+        <i class="fab fa-youtube-square text-red-600 text-3xl mx-1 absolute z-10"></i>
+    </div>
+    
+</div>
+<div>
+    <a href="#" class="text-white text-sm font-bold">Дээш буцах</a>
+</div>
+</div>
+<div class="hidden">
+<div class="bg-mfa-blue flex flex-row justify-between px-10 py-4"> 
+<div class="">
+    <a href="" class="text-white text-sm font-bold">Хүний эрхийн хуулиар хамгаалагдсан 2021 гадаад <br> харилцааны яам</a>
+</div>
+<div class="flex flex-row relative">
+    <div class="mx-5">
+        <div class="w-7 mt-2 ml-2 h-6 bg-yellow-500 absolute z-0" ></div>
+        <i class="fab fa-facebook-square text-blue-600  text-3xl mx-1 absolute z-10"></i>
+    </div>
+    <div  class="mx-5">
+        <div class="w-7 mt-2 ml-2 h-6 bg-yellow-500 absolute z-0 " ></div>
+        <i class="fab fa-twitter-square text-blue-400 text-3xl mx-1 absolute z-10"></i>
+    </div>
+    <div class="mx-5">
+        <div class="w-7 mt-2 ml-2 h-6 bg-yellow-500 absolute z-0" ></div>
+        <i class="fab fa-youtube-square text-red-600 text-3xl mx-1 absolute z-10"></i>
+    </div>
+    
+</div>
+<div>
+    <a href="#" class="text-white text-sm font-bold">Дээш буцах</a>
+</div>
+</div>
+</div>
+</body>
+</html>
